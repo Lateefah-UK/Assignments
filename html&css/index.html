@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REgisteration page</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+              <li class="active"><a href="index.html">Register</a></li>
+              <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form action="">
+            <p>
+              <label for="fname">First Name:</label>
+              <input type="text">
+            </p>
+      
+            <p>
+              <label for="lname">Last Name:</label>
+              <input type="text">
+            </p>
+
+            <p>
+              <label for="phone">Phone No.:</label>
+              <input type="number" required pattern="(+) (0-9)3 (0-9)3 (0-9)4 (0-9)3">
+            </p>
+
+            <p>
+              <label for="email">Email:</label>
+              <input type="email">
+            </p>
+
+            <p>
+              <label for="birthday">Date of birth:</label>
+              <input type="date" id="birthday" name="birthday"> 
+            </p>
+
+            <p>
+              <label for="gender">Gender:</label>
+              <select required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+           </p>
+
+           <p>
+             <label for="fcolor">Favorite color:</label>
+             <input type="color" id="fcolor" name="fcolor"> 
+           </p>
+      
+            <input type="submit" value="Submit" id="sm">
+        </form>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>

@@ -1,0 +1,94 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+header, footer {
+    height: 10%;
+    background-color: rgba(31, 29, 29, 0.048);
+}
+
+.navbar {
+    padding-top: 10px;
+    float: inline-end;
+    width: auto;
+}
+
+ul li {
+    text-decoration: none;
+    display: inline;
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    text-align: right;
+    background-color: beige;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+a:link {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+li:hover {
+    background-color: greenyellow;
+}
+
+main {
+    box-sizing: border-box;
+    padding-top: 20px;
+    background-color: beige;
+    height: 80%;
+}
+
+form {
+    margin: auto;
+    width: 60%;
+    height: 70%;
+    border: 5px solid rgba(170, 165, 170, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(241, 244, 247);
+}
+
+#login {
+    padding-top: 60px;
+    padding-left: 150px;
+    height: 40%;
+    width: 50%;
+}
+
+input[type=text], input[type=number], input[type=email], input[type=password] {
+    width: 50%;
+    border: 2px solid rgb(173, 164, 164);
+    border-radius: 5px;
+    padding: 8px;
+}
+
+label {
+    font-weight: 800;
+}
+
+#sm, .btn {
+    border: 2px solid rgb(173, 164, 164);
+    border-radius: 15px;
+    padding: 5px;
+    width: 10%;
+    background-color: red;
+    color: aliceblue;
+    font-size: medium;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+#successpg {
+    width: 40%;
+    border: 5px solid rgb(121, 245, 121);
+    border-radius: 2em;
+    margin: auto;
+    padding-top: 10px;
+    padding-left: 100px;
+    font-weight: 1000;
+}
